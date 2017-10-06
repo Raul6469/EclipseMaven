@@ -4,4 +4,5 @@ jdk:
   - oraclejdk8
 
 after_success:
+  - mvn clean package
   - bash <(curl -s https://codecov.io/bash)
