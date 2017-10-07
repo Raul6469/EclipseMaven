@@ -6,6 +6,3 @@ jdk:
 script:
   - mvn clean package
   - bash <(curl -s https://codecov.io/bash)
-
-notifications:
-  webhooks: https://discordapp.com/api/webhooks/366241626290520064/XVYVfvXiBsotqmykyKYbFGy2NNylnzAnLxlnGNN_T91hTR4ML6iRA5MQDQAt3mURq-_g
