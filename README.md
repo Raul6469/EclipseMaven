@@ -17,8 +17,6 @@ Vérifier que la classe `App.java` s'exécute en faisant clic-droit `Run As : Ja
 De même pour les classes de test.
 
 ## CI
-A chaque commit, Travis CI compile le projet et exécute les tests, et indique le statut du commit en fonction du résultat.
-
-A chaque pull request, Travis compile et teste le programme, et envoie le rapport de couverture JaCoCo à Codecov, qui vérifie que les nouvelles fonctions sont testées et que les autres couvertures ne sont pas supprimées.
+A chaque commit et pull request, Travis compile et teste le programme, et envoie le rapport de couverture JaCoCo à Codecov, qui vérifie que les nouvelles fonctions sont testées et que les autres couvertures ne sont pas supprimées.
 
 Codacy est un outil d'analyse de code statique qui donne des commentaires généraux sur le code, et peut être paramétré pour vérifier l'écriture de la Javadoc par exemple.
