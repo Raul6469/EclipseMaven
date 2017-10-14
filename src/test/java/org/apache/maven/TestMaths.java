@@ -14,8 +14,7 @@ public class TestMaths extends TestCase {
 
 		
 	public void testSum() {
-		//assertEquals(Maths.sum(2, 3),4);
-		assertEquals(1,1);
+		assertEquals(Maths.sum(2, 3),5);
 	}
 
 }
