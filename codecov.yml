@@ -1,2 +1,5 @@
 ignore:
   - "src/main/java/org/apache/maven/App.java"
+
+coverage:
+  range: 30..75
