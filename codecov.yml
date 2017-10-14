@@ -1,5 +1,6 @@
 ignore:
   - "src/main/java/org/apache/maven/App.java"
+  - "src/main/java/org/apache/maven/Maths.java"
 
 coverage:
   range: 30..75
