@@ -4,6 +4,12 @@ ignore:
 coverage:
   range: 30..75
 
-status:
-  if_no_uploads: error
-  if_ci_failed: error
+  status:
+      project:
+        default:
+          if_no_uploads: error
+          if_ci_failed: error
+      patch:
+        default:
+          if_no_uploads: error
+          if_ci_failed: error
