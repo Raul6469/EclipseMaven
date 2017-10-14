@@ -1,6 +1,13 @@
 ignore:
   - "src/main/java/org/apache/maven/App.java"
-  - "src/main/java/org/apache/maven/Maths.java"
 
 coverage:
   range: 30..75
+
+  status:
+    project: off
+    
+    patch:
+      default:
+        paths:
+          - "src/main/java/org/apache/maven/Maths.java"
