@@ -13,7 +13,7 @@ public class TestMaths extends TestCase {
 	}
 
 	public void testSum() {
-		assertEquals(Maths.sum(2, 3),5);
+		assertEquals(Maths.sum(2, 3),4);
 	}
 
 }
