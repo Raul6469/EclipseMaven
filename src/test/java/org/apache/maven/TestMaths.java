@@ -12,6 +12,7 @@ public class TestMaths extends TestCase {
 		super.tearDown();
 	}
 
+		
 	public void testSum() {
 		assertEquals(Maths.sum(2, 3),5);
 	}

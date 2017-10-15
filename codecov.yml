@@ -3,3 +3,17 @@ ignore:
 
 coverage:
   range: 30..75
+
+  status:
+    project: off
+    
+    patch:
+      default:
+        paths:
+          - "src/main/java/org/apache/maven/Maths.java"
+
+comment:
+  layout: "diff, flags, files"
+  require_changes: true
+  paths:
+    - "src/main/java/org/apache/maven/Maths.java"
